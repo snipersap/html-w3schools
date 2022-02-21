@@ -17,7 +17,8 @@
 
     <!-- HTML paragraphs-->
     <p>My first paragraph.</p>
-    <p>This is another paragraph.</p>
+    <p>This is another paragraph with spaces 
+               which the      browser      ignores</p>
     <p>This is a paragraph with a <br> line break.</p>
     <p>HTML will autocomplete the end tag for you <strong>sometimes!</strong> But don't rely on it. </p>
     <!-- The above paragraph enclosed the link and image below in it, when it was not ended.-->
@@ -42,6 +43,25 @@
     <!-- Make HTML headings bigger-->
     <h1 style="font-size: 40px;">My Heading made bigger with the style attribute font-size.</h1>
 
+    <!-- Introduce a thematci break with horizontal rule. It's an empty tag: hr-->
+    <hr>
     
+    <!-- The poem problem-->
+    <h3>The poem problem</h3>
+    <p>The poem with breaks
+
+        and spaces, ... lots of      spaces          
+
+        still shows up in a single line!!
+    </p>
+
+    <h3>It is solved by the pre element, preserving breaks and spaces both</h3>
+    <pre>The poem with breaks
+
+        and spaces, ... lots of      spaces          
+
+        shows up as expected 
+        
+    in a fixed-width font!!</pre>
 </body>
 </html>
