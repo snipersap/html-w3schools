@@ -1,4 +1,5 @@
 <!DOCTYPE html> <!-- DocTYPE for HTML5-->
+<html lang="en-DE"> <!-- lang first 2 digits represent language and last 2 digits represent the country.-->
 <head> <!-- stores meta info about the webpage-->
     <title>HTML tutorial from W3 schools</title> <!--shows up on the browser title bar-->
 </head> 
@@ -15,14 +16,25 @@
     <!-- HTML paragraphs-->
     <p>My first paragraph.</p>
     <p>This is another paragraph.</p>
+    <p>This is a paragraph with a <br> line break.</p>
+    <p>HTML will autocomplete the end tag for you <strong>sometimes!</strong> But don't rely on it. </p>
+    <!-- The above paragraph enclosed the link and image below in it, when it was not ended.-->
+
 
     <!-- HTML links -->
+    <!-- Best to use relative URLs. They will not break if you change domain.-->
     <a href="./index.html">Self reference link</a>
     <br>
     
     <!-- HTML Images-->
     <img src="https://img.icons8.com/color/100/000000/twitter--v2.png" alt="Twitter image" width="200" height="200" > 
 
+    <!-- HTML styles-->
+    <p style="color: blue">This is a paragraph coloured with styles.</p>
 
+    <!-- HTML tooltip-->
+    <p title="Tooltip for me!">This is a paragraph with a tooltip.</p>
+    <!--Always use quotes or single quotes for the values of HTML attributes-->
+    <p title="I am a 'Wing Commander'. Fly with me!">Paragraph: tooltip containing single quote.</p>
 </body>
 </html>
